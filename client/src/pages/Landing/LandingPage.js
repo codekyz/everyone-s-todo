@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 // const Item = styled(Paper)({
@@ -40,7 +41,7 @@ function LandingPage() {
             variant="contained"
             color="info"
             onClick={() => {
-              navigate("/register");
+              navigate("/create-account");
             }}
           >
             계정만들기

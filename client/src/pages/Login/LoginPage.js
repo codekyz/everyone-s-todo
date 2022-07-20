@@ -14,6 +14,7 @@ function LoginPage() {
           height: "100vh",
         }}
       >
+        <Typography align="center">LOGIN</Typography>
         <TextField label="ID" variant="outlined" sx={{ mb: 1 }} />
         <TextField label="PASSWORD" variant="outlined" sx={{ mb: 1 }} />
         <Button variant="contained" color="info">
